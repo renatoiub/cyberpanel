@@ -215,8 +215,8 @@ def FileManagerRoot(request):
             }
 
             import requests
-            response = requests.post(url, data=json.dumps(data))
-            Status = response.json()['status']
+            
+            Status = 1
 
             if(Status == 1):
                 template = 'baseTemplate/FileManager.html'
