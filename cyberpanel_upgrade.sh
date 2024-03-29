@@ -552,6 +552,8 @@ if [[ "$Server_Country" = "CN" ]] ; then
 
   Retry_Command "git clone ${Git_Clone_URL}"
     Check_Return "git clone ${Git_Clone_URL}"
+     echo -e "Clonando do meu diretorio"
+    sleep 30
 
   # shellcheck disable=SC2086
   sed -i 's|https://raw.githubusercontent.com/renatoiub/cyberpanel/stable/install/litespeed/httpd_config.xml|'${Git_Content_URL}/${Branch_Name}'//install/litespeed/httpd_config.xml|g' upgrade.py
