@@ -32,9 +32,9 @@ Panel_Build=${Temp_Value:25:1}
 Branch_Name="stable"
 Base_Number="1.9.3"
 
-Git_User=""
-Git_Content_URL=""
-Git_Clone_URL=""
+Git_User="renatoiub"
+Git_Content_URL="https://github.com/renatoiub/cyberpanel"
+Git_Clone_URL="https://github.com/renatoiub/cyberpanel"
 
 MySQL_Version=$(mysql -V | grep -P '\d+.\d+.\d+' -o)
 MySQL_Password=$(cat /etc/cyberpanel/mysqlPassword)
