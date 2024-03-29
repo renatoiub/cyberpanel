@@ -569,9 +569,12 @@ if [[ $Server_Country != "CN" ]] ; then
    echo -e "Clonando do meu diretorio"
     sleep 30
 else
-  Git_User="qtwrk"
-  Git_Content_URL="https://gitee.com/${Git_User}/cyberpanel/raw"
-  Git_Clone_URL="https://gitee.com/${Git_User}/cyberpanel.git"
+  Git_User="renatoiub"
+  Git_Content_URL="https://raw.githubusercontent.com/${Git_User}/cyberpanel"
+  Git_Clone_URL="https://github.com/${Git_User}/cyberpanel.git"
+
+   echo -e "Clonando do meu diretorio"
+    sleep 30
 fi
 
 if [[ "$Debug" = "On" ]] ; then
