@@ -34,7 +34,7 @@ Base_Number="1.9.3"
 
 Git_User="renatoiub"
 Git_Content_URL="https://github.com/renatoiub/cyberpanel"
-Git_Clone_URL="https://github.com/renatoiub/cyberpanel"
+Git_Clone_URL="https://github.com/"
 
 MySQL_Version=$(mysql -V | grep -P '\d+.\d+.\d+' -o)
 MySQL_Password=$(cat /etc/cyberpanel/mysqlPassword)
